@@ -90,7 +90,7 @@ console.log(masuv1[string])
     console.log(masuv1[string])
 }*/
 //- Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи
-const masuv1=['work', 'house', 'child', 'parens', 8===8, 45, 42, 13, 46, 8<=7]
+/*const masuv1=['work', 'house', 'child', 'parens', 8===8, 45, 42, 13, 46, 8<=7]*/
 /*for (let i = 0; i < masuv1.length; i++) {
     if (typeof masuv1[i] === 'boolean')
     ? console.log(masuv1[i]) : ""
@@ -111,7 +111,7 @@ const masuv1=['work', 'house', 'child', 'parens', 8===8, 45, 42, 13, 46, 8<=7]
 
 }*/
 //- Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення до конкретних індексів. Вивести в консоль всі його елементи в циклі.
-let str1=[];
+/*let str1=[];
  str1[2]='lesson';
  str1[0]=2;
  str1[1]='window';
@@ -126,4 +126,113 @@ let str1=[];
 for (let i = 0; i < str1.length; i++) {
     console.log(str1[i])
     
+}*/
+
+//Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+/*for (let i = 0; i < 10; i++) {
+    console.log('telephon : '  ,i)
+    document.write(`telephon : ${i} <br>`)
+     
+}*/
+
+//- Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+/*for (let i = 0; i < 100; i++) {
+    console.log('telephon : '  ,i)
+    document.write(`telephon : ${i} <br>`)
+     
+}*/
+//- Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
+/*for (let i = 2; i < 200; i=i+2) {
+    console.log('telephon : '  ,i)
+    document.write(`telephon : ${i} <br>`)
+}*/
+/*let telephon=0
+for (let i = 2; i < 100; i++) {
+    console.log('telephon : '  ,telephon)
+    document.write(`telephon : ${telephon} <br>`)
+    telephon+=2
+}*/ ///коротка запись 
+
+//- Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
+
+/*for (let i = 2; i < 100; i++) {
+    if(i%2 === 0){
+    console.log('telephon : '  ,i)
+    document.write(`telephon : ${i} <br>`)
+    }
+}*/
+
+//- Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
+/*for (let i = 2; i < 100; i++) {
+    if(i%2 === 1){
+    console.log('telephon : '  ,i)
+    document.write(`telephon : ${i} <br>`)
+    }
+}*/
+/*for (let i = 1; i < 100; i+=2) {
+    console.log('telephon : '  ,i)
+    document.write(`telephon : ${i} <br>`)
+
+}*/
+/*for (let i = 2; i < 100; i+=2) {
+    console.log('telephon : '  ,i)
+    document.write(`telephon : ${i} <br>`)
+
+}*/
+//- Відтворити роботу годинника, відрахувавши 2 хвилини (2 цикли! 1й - хвилини, 2й - секунди)
+
+
+
+//- Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for зібрати всі букви в слово.
+/*let daf=['s', 'u', 'n']
+let qew=''
+for (let i = 0; i < daf.length; i++) {
+    qew=qew+daf[i] 
 }
+console.log(qew)*/
+//- Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу while зібрати всі букви в слово.
+/*let daf=['s', 'u', 'n']
+let i=0 
+let qew=''
+while ( i < daf.length) {
+    qew=qew+daf[i]
+    i++
+}
+console.log(qew)*/
+
+//- Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for of зібрати всі букви в слово.
+/*let daf=['s', 'u', 'n']
+let qew=''
+for (const string of daf) {
+    qew=qew+string
+}
+console.log(qew)*/
+//- Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for in зібрати всі букви в слово.
+/*let daf=['s', 'u', 'n']
+let qew=''
+for (const string in daf) {
+    qew=qew+daf[string]
+}
+console.log(qew)*/
+// Дан масив ['a', 'b', 'c']. Додайте йому в кінець елементи 1, 2, 3 за допомогою циклу
+/*let wer = ['a', 'b', 'c']
+for (let i = 0; i <= 3; i++) {
+    wer.push(i)   
+}
+console.log(wer)*/
+
+//- Дан масив [1, 2, 3]. Зробіть з нього новий масив [3, 2, 1].
+
+/*let wer =[1, 2, 3]
+let newWer=wer.reverse()
+console.log(newWer)*/
+
+//- Дан масив [1, 2, 3]. Додайте йому в кінець елементи 4, 5, 6.
+let wer =[1, 2, 3]
+for (let i = 4; i <= 6; i++) {
+    wer.push(i)   
+}
+console.log(wer)
+
+
+
