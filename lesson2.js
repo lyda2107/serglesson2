@@ -228,11 +228,114 @@ let newWer=wer.reverse()
 console.log(newWer)*/
 
 //- Дан масив [1, 2, 3]. Додайте йому в кінець елементи 4, 5, 6.
-let wer =[1, 2, 3]
+/*let wer =[1, 2, 3]
 for (let i = 4; i <= 6; i++) {
     wer.push(i)   
 }
-console.log(wer)
+console.log(wer)*/
+//- Дан масив [1, 2, 3]. Додайте йому в початок елементи 4, 5, 6.
+/*let wer =[1, 2, 3]
+for (let i = 6; i >= 4; i--) {
+    wer.unshift(i)   
+}
+console.log(wer)*/
+
+//- Дан масив ['js', 'css', 'jq']. Виведіть на екран перший елемент
+// за допомогою shift()
+/*const strings = ['js', 'css', 'jq']
+console.log(strings)
+const first = strings.shift()
+console.log('first', first)
+console.log('string', strings)*/
+//- Дан масив ['js', 'css', 'jq']. Виведіть на екран 
+//останній елемент за допомогою pop()
+
+/*const strings = ['js', 'css', 'jq']
+console.log(strings)
+const first = strings.pop()
+console.log(first)
+console.log(strings)
+
+//- Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції slice 
+//перетворіть масив в [4, 5]. Дана функція фирізає елемент
+
+/*const numbers = [1, 2, 3, 4, 5] 
+console.log(numbers.slice(3))*/
+
+//- Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції 
+//slice перетворіть масив в [1,2].
+
+/*const numbers = [1, 2, 3, 4, 5] 
+console.log(numbers.slice(0,2))*/
+
+//- Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції 
+//splice перетворіть масив в [1, 4, 5].-потрібно указувати звідки почати та що удалити
+/*const numbers = [1, 2, 3, 4, 5]; 
+console.log(numbers.splice(1, 2))
+console.log(numbers)*/
+
+//- Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції splice зробіть з нього масив [1, 2, 3, 'a', 'b', 'c', 4, 5].
+
+/*const numbers = [1, 2, 3, 4, 5]; 
+console.log(numbers.splice(3, 0, 'a', 'b', 'c'))
+console.log(numbers)*/
+
+//- Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції splice зробіть з нього масив [1, 'a', 'b', 2, 3, 4, 'c', 5, 'e'].
+/*const numbers = [1, 2, 3, 4, 5]; 
+console.log(numbers.splice(1, 0, 'a', 'b', ))
+console.log(numbers.splice(4, 0, 'c'))
+console.log(numbers)*/
+
+//- Взяти масив з 10 чисел або створити його. Вивести в консоль тільки ті елементи, значення яких є парними.
+/*const zaq = [1,2,3,4,5,6,7,8,9,11]
+for (let i = 0; i < zaq.length; i++) {
+ if (zaq[i]%2 === 0){
+     console.log(zaq[i]);
+ } 
+}*/
+
+//- Взяти масив з 10 чисел або створити його. Створити 2й порожній масив. За допомогою будь-якого циклу та push () скопіювати значення одного масиву в інший
+
+/*const zaq = [1,2,3,4,5,6,7,8,9,11]
+console.log(zaq)
+let qaz = []
+for (let i = 0; i < zaq.length; i++) {
+ qaz.push(zaq[i]) 
+}
+console.log(qaz)*/
+
+//- Взяти масив з 10 чисел або створити його. Створити 2й порожній масив. За допомогою будь-якого циклу скопіювати значення одного масиву в інший.
+
+const zaq = [1,2,3,4,5,6,7,8,9,11]
+console.log(zaq)
+let qaz = []
+for (let i = 0; i < zaq.length; i++) {
+ qaz[i]=(zaq[i]) 
+}
+console.log(qaz)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
