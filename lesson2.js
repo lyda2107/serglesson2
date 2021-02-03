@@ -317,19 +317,43 @@ console.log(qaz)*/
 //зробити масив з 10 чисел [2,17,13,6,22,31,45,66,100,-18]та:
 // замінити кожне число кратне 3 на слово "okten"
 
-const zaq = [2,17,13,6,22,31,45,66,100,-18]
+/*const zaq = [2,17,13,6,22,31,45,66,100,-18]
 console.log(zaq)
 for (let i = 0; i < zaq.length; i++) {
 if(zaq[i]%3 === 0){
 zaq[i] = 'octen'
 }
 }
-console.log(zaq)
+console.log(zaq)*/
+
+// створити пустий масив та :
+//заповнити його 50 парними числами за допомоги циклу.
+//заповнити його 50 непарними числами за допомоги циклу.
+ /*let array1 = []; 
+ let array2 = [];
+ for (let i = 0; i < 50; i++) {
+    i%2 === 0? array1[i]=i : array2[i]=i;
+     
+ }
+console.log(array1);
+console.log(array2);*/
+
+//3. используя Math.random заполнить массив из ???(сколько хотите) элементов.
+// диапазон рандома 8 до 732. (но сначала пробуйте БЕЗ ДИАПАЗОНА!)
 
 
+let array = []
+for (let i = 0; i < 10; i++) {
+     array[i]= Math.floor( (Math.random()*732-8)+8)
+    
+}
+console.log('array')
+console.log(array)
 
-
-
+for (let i = 2; i < array.length; i+=3) {
+ console.log(array[i]);
+    
+}
 
 
 
