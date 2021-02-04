@@ -181,8 +181,18 @@ for (let i = 2; i < 100; i++) {
 }*/
 //- Відтворити роботу годинника, відрахувавши 2 хвилини (2 цикли! 1й - хвилини, 2й - секунди)
 
-
-
+const tiMe = 59
+let s = 0
+let min = 0
+for (let i = 0; i <= tiMe; i++) {
+    console.log('min :', min++)
+    
+for (let i = 0; i <= tiMe; i++) {
+    console.log('secunda :', s++)
+    
+}
+s = 0
+}
 //- Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for зібрати всі букви в слово.
 /*let daf=['s', 'u', 'n']
 let qew=''
@@ -342,23 +352,69 @@ console.log(array2);*/
 // диапазон рандома 8 до 732. (но сначала пробуйте БЕЗ ДИАПАЗОНА!)
 
 
-let array = []
+/*let array = []
+for (let i = 0; i < 10; i++) {
+     array[i]= Math.floor( (Math.random()*732-8)+8)
+    
+}
+console.log('array')
+console.log(array)*/
+
+/*for (let i = 2; i < array.length; i+=3) {
+ console.log(array[i]);
+    
+}*/
+//3. вывести на консоль  каждый третий елемент
+//но при условии что его значение является парным.
+/*for (let i = 2; i < array.length; i+=3) {
+    if(array[i]%2 === 0)
+    {
+    console.log(array[i]);
+}
+
+       
+   }
+*/
+   // 4. вывести на консоль  каждый третий елемент
+ //но при условии что он имеет парное значение и
+ //записать их в другой массив.
+
+/*let newArray = []
+ for (let i = 2; i < array.length; i+=3) {
+    if(array[i]%2 === 0)
+    {
+    newArray.push(array[i]);
+}
+
+       
+   }
+console.log(newArray)*/
+
+//5. Вывести каждый елемент массива у которого соседний с права элемент - парный
+//5 масив з числами [100,250,50,168,120,345,188], Які характеризують вартість окремої //покупки. обрахувати середній чек.
+
+/*let newArray = []
+ for (let i = 0; i < array.length; i++) {
+    if(array[i]%2 === 0)
+    {
+    console.log(array[i]);
+}       
+   }*/
+
+//3 створити масив з рандомними значеннями, помножити всі його елементи на 5 та перемістити їх в інший масив.
+/*let array = []
 for (let i = 0; i < 10; i++) {
      array[i]= Math.floor( (Math.random()*732-8)+8)
     
 }
 console.log('array')
 console.log(array)
-
-for (let i = 2; i < array.length; i+=3) {
- console.log(array[i]);
+let newArray =[]
+for (let i = 2; i < array.length; i++) {
+ newArray[i] = array[i]*5
     
 }
-
-
-
-
-
+console.log(newArray)*/
 
 
 
