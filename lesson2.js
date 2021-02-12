@@ -180,17 +180,24 @@ for (let i = 2; i < 100; i++) {
 
 }*/
 //- Відтворити роботу годинника, відрахувавши 2 хвилини (2 цикли! 1й - хвилини, 2й - секунди)
-const tiMe = 59
-let s = 0
-let min = 0
-for (let i = 0; i <= tiMe; i++) {
-    console.log('min :', min++)
-    
-for (let i = 0; i <= tiMe; i++) {
-    console.log('secunda :', s++)
-    
-}
-s = 0
+const tiMe = 59;
+let s = 0;
+let min = 0;
+let hour = 0;
+
+for (let i = 0; i <= 23 && hour !== 3 && min !== 21; i++) {
+    console.log('hour : ',hour++);
+                    
+    for (let i = 0; i <= tiMe && hour !== 3 && min !== 21; i++) {
+        console.log('min : ',min++);
+        
+    for (let i = 0; i <= tiMe; i++) {
+        /*console.log('seci : ',s++);*/
+        s++;
+    }
+    s = 0;
+    }
+    hour = 0;
 }
 //- Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for зібрати всі букви в слово.
 /*let daf=['s', 'u', 'n']
